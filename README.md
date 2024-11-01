@@ -81,7 +81,7 @@ It is a customized build of [Iosevka](https://github.com/be5invis/Iosevka).
 
 #### VSCode
 
-```json
+```jsonc
 // settings.json
 
 /**
