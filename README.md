@@ -1,4 +1,4 @@
-# Erisevka
+# [Erisevka](https://panukettu.github.io/erisevka-monospace)
 
 My monospace font for terminals and editors.
 
