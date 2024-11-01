@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Erisevka Sample</title>
+		<link rel="stylesheet" href="Erisevka.css" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<h1>Erisevka Monospace</h1>
+
+			<div class="two-column-layout">
+				<div class="left-column">
+					<section class="font-demo">
+						<h2>Weights</h2>
+						<div class="font-example">
+							<label>Thin (100)</label>
+							<p class="thin" contenteditable="true">Pack my box with five dozen liquor jugs</p>
+						</div>
+						<div class="font-example">
+							<label>Extra Light (200)</label>
+							<p class="extra-light" contenteditable="true">Pack my box with five dozen liquor jugs</p>
+						</div>
+						<div class="font-example">
+							<label>Light (300)</label>
+							<p class="light" contenteditable="true">Pack my box with five dozen liquor jugs</p>
+						</div>
+						<div class="font-example">
+							<label>Semi Light (350)</label>
+							<p class="semi-light" contenteditable="true">Pack my box with five dozen liquor jugs</p>
+						</div>
+						<div class="font-example hl-green">
+							<label>Normal (400)</label>
+							<p class="regular" contenteditable="true">Pack my box with five dozen liquor jugs</p>
+						</div>
+						<div class="font-example">
+							<label>Book (450)</label>
+							<p class="book" contenteditable="true">Pack my box with five dozen liquor jugs</p>
+						</div>
+						<div class="font-example">
+							<label>Medium (500)</label>
+							<p class="medium" contenteditable="true">Pack my box with five dozen liquor jugs</p>
+						</div>
+						<div class="font-example">
+							<label>Semi Bold (600)</label>
+							<p class="semi-bold" contenteditable="true">Pack my box with five dozen liquor jugs</p>
+						</div>
+						<div class="font-example">
+							<label>Bold (700)</label>
+							<p class="bold" contenteditable="true">Pack my box with five dozen liquor jugs</p>
+						</div>
+						<div class="font-example">
+							<label>Extra Bold (800)</label>
+							<p class="extra-bold" contenteditable="true">Pack my box with five dozen liquor jugs</p>
+						</div>
+						<div class="font-example">
+							<label>Heavy (900)</label>
+							<p class="heavy" contenteditable="true">Pack my box with five dozen liquor jugs</p>
+						</div>
+					</section>
+				</div>
+
+				<div class="right-column">
+					<section class="font-demo">
+						<h2>Widths</h2>
+						<div class="font-example">
+							<label>Ultra-Condensed</label>
+							<span class="ultra-condensed" contenteditable="true">Pack my box with five dozen liquor jugs</span>
+						</div>
+						<div class="font-example">
+							<label>Extra-Condensed</label>
+							<span class="extra-condensed" contenteditable="true">Pack my box with five dozen liquor jugs</span>
+						</div>
+						<div class="font-example">
+							<label>Condensed</label>
+							<span class="condensed" contenteditable="true">Pack my box with five dozen liquor jugs</span>
+						</div>
+						<div class="font-example">
+							<label>Semi-Condensed</label>
+							<span class="semi-condensed" contenteditable="true">Pack my box with five dozen liquor jugs</span>
+						</div>
+						<div class="font-example hl-green">
+							<label>Normal</label>
+							<span class="normal" contenteditable="true">Pack my box with five dozen liquor jugs</span>
+						</div>
+						<div class="font-example">
+							<label>Semi-Extended</label>
+							<span class="semi-expanded" contenteditable="true">Pack my box with five dozen liquor jugs</span>
+						</div>
+						<div class="font-example">
+							<label>Extended</label>
+							<span class="expanded" contenteditable="true">Pack my box with five dozen liquor jugs</span>
+						</div>
+						<div class="font-example">
+							<label>Extra-Extended</label>
+							<span class="extra-expanded" contenteditable="true">Pack my box with five dozen liquor jugs</span>
+						</div>
+					</section>
+					<section class="font-demo bigger">
+						<h2>Slopes</h2>
+						<div class="font-example hl-green">
+							<label>Normal</label>
+							<p class="style-normal" contenteditable="true">Pack my box with five dozen liquor jugs</p>
+						</div>
+						<div class="font-example">
+							<label>Oblique</label>
+							<p class="style-oblique" contenteditable="true">Pack my box with five dozen liquor jugs</p>
+						</div>
+						<div class="font-example">
+							<label>Italic</label>
+							<p class="style-italic" contenteditable="true">Pack my box with five dozen liquor jugs</p>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<section class="font-demo full-width">
+				<h2>Ligatures</h2>
+				<pre class="special-chars">@ # ### % ^ & * ~ ~~~~ () [^.*] ${1} <- -> <> <=></pre>
+				<pre class="special-chars">== === !== != >> >>> << <<< => ==> ______ ------</pre>
+			</section>
+
+			<section class="font-demo full-width">
+
+				<h2>Examples</h2>
+			</section>
+			<section class="code-sample">
+				<h2 class="font-title">TS</h2>
+				<pre><code><span class="keyword-export">import</span> { <span class="type-keyword">type</span> <span class="type">User</span> } <span class="keyword-export">from</span> <span class="string">'./types'</span>;
+
+<span class="type-keyword">type</span> <span class="type">Name</span> <span class="type-operator">=</span> <span class="string">`${<span class="type">string</span>} ${<span class="type">string</span>}`</span>;
+
+<span class="keyword-export">export</span> <span class="keyword">function</span> <span class="function">greet</span>(<span class="variable">name</span><span class="type-operator">:</span> <span class="type">Name</span>) {
+    <span class="keyword">const</span> [<span class="variable">firstName</span>, <span class="variable">lastName</span>] <span class="operator">=</span> <span class="variable">name</span>.<span class="function">split</span>(<span class="string">' '</span>);
+    console.<span class="function">log</span>(<span class="string">`Hello, ${name}!`</span>);
+    
+    <span class="keyword">return</span> { <span class="variable">firstName</span>, <span class="variable">lastName</span> } <span class="type-operator">satisfies</span> <span class="type">User</span>;
+}
+
+<span class="keyword">const</span> <span class="variable">result</span> = [<span class="punctuation"><span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span></span>].<span class="function">map</span>(<span class="variable">x</span> <span class="operator">=></span> <span class="variable">x</span> <span class="operator">*</span> <span class="punctuation"><span class="number">2</span></span>);
+<span class="keyword-export">export</span> <span class="keyword">default</span> <span class="variable">result</span>;</code></pre>
+
+
+			</section>
+
+			<section class="code-sample">
+				<h2>JSON</h2>
+				<pre><code><span class="punctuation">{</span>
+  <span class="property">"name"</span><span class="punctuation">:</span> <span class="string">"Erisevka"</span><span class="punctuation">,</span>
+  <span class="property">"version"</span><span class="punctuation">:</span> <span class="string">"1.0.0"</span><span class="punctuation">,</span>
+  <span class="property">"variants"</span><span class="punctuation">:</span> <span class="punctuation">[</span>
+    <span class="punctuation">{</span>
+      <span class="property">"weight"</span><span class="punctuation">:</span> <span class="number">400</span><span class="punctuation">,</span>
+      <span class="property">"style"</span><span class="punctuation">:</span> <span class="string">"normal"</span><span class="punctuation">,</span>
+      <span class="property">"features"</span><span class="punctuation">:</span> <span class="punctuation">{</span>
+        <span class="property">"ligatures"</span><span class="punctuation">:</span> <span class="keyword">true</span><span class="punctuation">,</span>
+        <span class="property">"styleAlts"</span><span class="punctuation">:</span> <span class="keyword">false</span>
+      <span class="punctuation">}</span>
+    <span class="punctuation">}</span>
+  <span class="punctuation">]</span>
+<span class="punctuation">}</span></code></pre>
+			</section>
+
+
+			<section class="code-sample shell-sample">
+				<h2>shell</h2>
+				<pre><code><span class="comment">#!/bin/bash<br/></span>
+<span class="comment">################################################</span>
+<span class="command">set</span> <span class="arg">-o</span> <span class="package">extendedglob</span> <span class="comment"># enable extended globbing</span>
+<span class="command">set</span> <span class="arg">-o</span> <span class="package">noclobber</span>    <span class="comment"># prevent overwriting files</span>
+<span class="command">typeset</span> <span class="arg">-U</span> <span class="path">path</span>     <span class="comment"># unique path</span>
+<span class="comment">################################################</span>
+
+<span class="comment"># Install dependencies</span>
+<span class="command">bun</span> <span class="arg">install -D</span> <span class="package">@types/node</span> <span class="package">typescript</span>
+
+<span class="comment"># Build and run</span> 
+<span class="command">mkdir</span> <span class="arg">-p</span> <span class="path">dist/fonts</span>
+<span class="command">cp</span> <span class="path">src/*.woff2</span> <span class="path">dist/fonts/</span>
+<span class="command">tsc</span> <span class="arg">--project</span> <span class="path">tsconfig.json</span> 
+<span class="prompt"><span class="prompt-content"><span class="dir">~/.erisevka</span><span class="git">main</span> <span class="status">?1</span><span class="prompt-char">›</span></span><span class="command">ls</span><span class="arg">-la</span><span class="path">dist/fonts/</span><span class="pipe">|</span><span class="command">rg</span><span class="string">".woff2"</span></code></pre>
+</section>
+		</div>
+	</body>
+</html>

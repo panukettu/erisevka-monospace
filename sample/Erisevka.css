@@ -1,0 +1,271 @@
+/* Erisevka Web */
+
+/* Weights */
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("WOFF2/Erisevka-Thin.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("WOFF2/Erisevka-ExtraLight.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("WOFF2/Erisevka-Light.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web Unhinted Light Oblique";
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url("WOFF2/Unhinted-Erisevka-LightOblique.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 350;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("WOFF2/Erisevka-SemiLight.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("WOFF2/Erisevka-Regular.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: ultra-condensed;
+	font-style: normal;
+	src: url("WOFF2/Erisevka-UltraCondensed.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: ultra-condensed;
+	font-style: normal;
+	src: url("WOFF2/Erisevka-UltraCondensedBold.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: ultra-condensed;
+	font-style: oblique;
+	src: url("WOFF2/Erisevka-UltraCondensedBoldOblique.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: ultra-condensed;
+	font-style: italic;
+	src: url("WOFF2/Erisevka-UltraCondensedBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: extra-condensed;
+	font-style: normal;
+	src: url("WOFF2/Erisevka-ExtraCondensed.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: extra-condensed;
+	font-style: normal;
+	src: url("WOFF2/Erisevka-ExtraCondensedBold.woff2") format("woff2");
+}
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: extra-condensed;
+	font-style: oblique;
+	src: url("WOFF2/Erisevka-ExtraCondensedBoldOblique.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: extra-condensed;
+	font-style: italic;
+	src: url("WOFF2/Erisevka-ExtraCondensedBoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: condensed;
+	font-style: normal;
+	src: url("WOFF2/Erisevka-Condensed.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: semi-condensed;
+	font-style: normal;
+	src: url("WOFF2/Erisevka-SemiCondensed.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: semi-expanded;
+	font-style: normal;
+	src: url("WOFF2/Erisevka-SemiExtended.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url("WOFF2/Erisevka-Extended.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: extra-expanded;
+	font-style: normal;
+	src: url("WOFF2/Erisevka-ExtraExtended.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 450;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("WOFF2/Erisevka-Book.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 450;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url("WOFF2/Erisevka-BookOblique.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 450;
+	font-stretch: normal;
+	font-style: italic;
+	src: url("WOFF2/Erisevka-BookItalic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("WOFF2/Erisevka-Medium.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("WOFF2/Erisevka-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("WOFF2/Erisevka-Bold.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url("WOFF2/Erisevka-BoldOblique.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url("WOFF2/Erisevka-BoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("WOFF2/Erisevka-ExtraBold.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Web";
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("WOFF2/Erisevka-Heavy.woff2") format("woff2");
+}
+
+@font-face {
+	font-family: "Erisevka Term";
+	font-display: swap;
+	font-weight: 450;
+	font-stretch: normal;
+	font-style: normal;
+	src: url("WOFF2/ErisevkaTerm-Book.woff2") format("woff2");
+}

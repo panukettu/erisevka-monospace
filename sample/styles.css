@@ -1,0 +1,415 @@
+/* Base styles */
+:root {
+	--font-color: #c9c9c9;
+	--background-color: #1b1e23;
+	--code-background-color: rgb(35, 37, 40);
+	--title-color: #eaeaea;
+	--title-fonts-color: #0080ff;
+	--title-codes-color: #e6b450;
+	--title-comments-color: #626a73;
+	--subtitle-color: #888;
+}
+
+body {
+	font-family: "Erisevka Web", monospace;
+	line-height: 1.6;
+	color: var(--font-color);
+	background-color: var(--background-color);
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0.5rem;
+}
+
+h1 {
+	font-family: "Erisevka Web Unhinted Light Oblique";
+	font-size: 4rem;
+	text-align: center;
+	margin: 3rem 0 4rem;
+	color: var(--title-color);
+	line-height: 1;
+}
+
+h2 {
+	margin-block-start: 0;
+	margin-block-end: 0.5rem;
+	text-underline-offset: 4px;
+}
+
+.font-demo h2 {
+	font-size: 2rem;
+	color: var(--title-fonts-color);
+	border-bottom: 1px solid var(--subtitle-color);
+	font-weight: 700;
+	font-stretch: extra-condensed;
+}
+
+/* Font demo sections */
+.font-demo {
+	background: var(--background-color);
+	margin-bottom: 0.5rem;
+	width: fit-content;
+}
+
+/* Add specific styles for left column demos */
+.left-column .font-demo {
+	max-width: fit-content;
+}
+
+/* Weight variations */
+.thin {
+	font-weight: 100;
+}
+.extra-light {
+	font-weight: 200;
+}
+.light {
+	font-weight: 300;
+}
+.semi-light {
+	font-weight: 350;
+}
+.regular {
+	font-weight: 400;
+}
+.book {
+	font-weight: 450;
+}
+.medium {
+	font-weight: 500;
+}
+.semi-bold {
+	font-weight: 600;
+}
+.bold {
+	font-weight: 700;
+}
+.extra-bold {
+	font-weight: 800;
+}
+.heavy {
+	font-weight: 900;
+}
+
+/* Width variations */
+.ultra-condensed {
+	font-stretch: ultra-condensed;
+}
+.extra-condensed {
+	font-stretch: extra-condensed;
+}
+.condensed {
+	font-stretch: condensed;
+}
+.semi-condensed {
+	font-stretch: semi-condensed;
+}
+.normal {
+	font-stretch: normal;
+}
+.semi-expanded {
+	font-stretch: semi-expanded;
+}
+.expanded {
+	font-stretch: expanded;
+}
+.extra-expanded {
+	font-stretch: extra-expanded;
+}
+
+/* Style variations */
+.style-normal {
+	font-style: normal;
+}
+.style-oblique {
+	font-style: oblique;
+}
+.style-italic {
+	font-style: italic;
+}
+
+/* Size variations */
+.size-sm {
+	font-size: 14px;
+}
+.size-md {
+	font-size: 16px;
+}
+.size-lg {
+	font-size: 20px;
+}
+.size-xl {
+	font-size: 24px;
+}
+
+/* Code sample section */
+.code-sample {
+	padding: 1rem;
+	border-radius: 8px;
+	margin-bottom: 0rem;
+}
+
+.code-sample h2 {
+	font-weight: 600;
+	font-stretch: normal;
+	text-decoration: underline solid var(--title-fonts-color);
+	color: var(--title-codes-color) !important;
+}
+
+.code-sample pre {
+	background: var(--code-background-color);
+	padding: 1rem;
+	border-radius: 4px;
+	margin: 0;
+	border: 1px solid #1e1e1e;
+	overflow: hidden;
+}
+
+.code-sample code {
+	font-family: "Erisevka Web", monospace;
+	font-size: 13px;
+	color: #b3b1ad;
+}
+
+/* Ayu Dark Theme syntax highlighting */
+.code-sample .keyword {
+	color: #ff8f40;
+}
+
+.code-sample .keyword-export {
+	color: #ff645c;
+}
+
+.code-sample .function {
+	color: #76edb5;
+}
+
+.code-sample .string {
+	color: #aad94c;
+}
+
+.code-sample .operator {
+	color: #f29668;
+}
+
+.code-sample .punctuation {
+	color: #b3b1ad;
+}
+
+.code-sample .variable {
+	color: #b3b1ad;
+}
+
+/* Add these to the Ayu Dark Theme syntax highlighting section */
+.code-sample .type {
+	color: #4bc4dc; /* Light blue for type names */
+}
+
+.code-sample .type-keyword {
+	color: #ff8f40; /* Orange for 'type' keyword */
+}
+
+.code-sample .type-operator {
+	color: #f29668; /* Light orange for type operators */
+}
+
+.code-sample .type-param {
+	color: #73d0ff; /* Lighter blue for type parameters/generics */
+}
+
+/* Special characters section */
+.special-chars {
+	font-family: "Erisevka Web", monospace;
+	text-align: left;
+	font-size: 1.25rem;
+	color: #ffa500;
+	white-space: normal;
+	word-spacing: 1rem;
+	line-height: 2;
+	width: 100%;
+	display: block;
+	margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+	.container {
+		padding: 1rem;
+	}
+
+	h1 {
+		font-size: 3rem;
+		margin: 2rem 0 3rem;
+	}
+
+	.font-demo {
+		padding: 1rem;
+	}
+}
+
+/* Add to the existing Ayu Dark Theme syntax highlighting section */
+.code-sample .property {
+	color: #e6b450; /* Ayu yellow */
+}
+
+.code-sample .number {
+	color: #d2a6ff; /* Ayu purple */
+}
+
+/* Add these styles for the input fields */
+.font-example {
+	position: relative;
+	margin-bottom: 1rem;
+}
+
+.font-example p,
+.font-example span {
+	margin: 0;
+	padding: 0.25rem 0;
+}
+
+[contenteditable="true"] {
+	outline: none;
+	cursor: text;
+}
+
+/* Style for variant labels */
+.font-example label {
+	display: block;
+	font-size: 0.75rem;
+	color: var(--subtitle-color);
+}
+
+/* Add these styles for the two-column layout */
+.two-column-layout {
+	display: grid;
+	grid-template-columns: max-content 1fr;
+	gap: 2rem;
+	margin-bottom: 2rem;
+}
+
+.left-column,
+.right-column {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+/* Update responsive design */
+@media (max-width: 800px) {
+	.two-column-layout {
+		grid-template-columns: 1fr;
+		gap: 2rem;
+	}
+}
+
+/* Update the right column styles */
+.right-column .font-demo {
+	max-width: none; /* Override the fit-content */
+	width: 100%; /* Make all sections in right column full width */
+}
+
+/* Update special chars to better fit the container */
+.special-chars {
+	font-family: "Erisevka Web", monospace;
+	text-align: center;
+	font-size: 2rem;
+	color: #ffa500;
+	white-space: normal;
+	line-height: 1.5;
+	width: 100%;
+	display: block;
+}
+
+/* Add styles for full-width section */
+.full-width {
+	width: 100% !important;
+	max-width: none !important;
+	margin-bottom: 2rem;
+}
+
+.bigger {
+	font-size: 1.35em;
+}
+
+.hl-green {
+	color: #a6f5a6 !important;
+}
+
+.code-sample .comment {
+	color: #626a73; /* Muted gray for comments */
+}
+
+.code-sample .command {
+	color: #39bae6; /* Light blue for commands */
+}
+
+.code-sample .arg {
+	color: #ffb454; /* Orange for arguments/flags */
+}
+
+.code-sample .path {
+	color: #b3b1ad; /* Green for file paths */
+}
+
+.code-sample .package {
+	color: #59c2ff; /* Blue for package names */
+}
+
+.code-sample .pipe {
+	color: #b3b1ad; /* Light orange for pipes and operators */
+}
+
+.code-sample .prompt {
+	font-family: "Erisevka Term", monospace;
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+	white-space: nowrap;
+	border-top: 1px solid var(--background-color);
+	/* border-bottom: 1px solid var(--background-color); */
+	border-radius: 0px;
+	margin-top: 0.5rem;
+	margin-bottom: -1rem;
+	padding: 0.2rem 1rem;
+	margin-left: -1rem;
+	width: 110%;
+
+	font-weight: 450;
+}
+
+.code-sample .prompt-content {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.code-sample .dir {
+	color: #a6f5a6; /* Light blue for directory */
+}
+
+.code-sample .git {
+	color: #ff9e64; /* Orange for git branch */
+}
+
+.code-sample .status {
+	color: #f7768e; /* Red for git status */
+}
+
+.code-sample .prompt-char {
+	color: #9ece6a; /* Green for prompt character */
+}
+
+/* Add to the shell syntax highlighting section */
+.shell-sample code {
+	font-size: 12px;
+	overflow-y: hidden;
+	font-family: "Erisevka Term", monospace;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
